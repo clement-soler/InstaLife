@@ -14,10 +14,10 @@ class PostsController < ApplicationController
   
   def create
     if @post = Post.create(post_params)
-      flash[:success] = "Your post has been created!"
+      flash[:success] = "😃 Your pict is now available in InstaLife!"
       redirect_to posts_path
     else
-      flash[:alert] = "Your new post couldn't be created!  Please check the form."
+      flash[:alert] = "😢 Oups... something happend wrong, please check the form."
       render :new
     end
   end
@@ -27,17 +27,17 @@ class PostsController < ApplicationController
 
   def update
     if @post.update(post_params)
-      flash[:success] = "Post updated."
+      flash[:success] = "Post updated 👌"
       redirect_to posts_path
     else
-      flash[:alert] = "Update failed.  Please check the form."
+      flash[:alert] = "😢 Update failed.  Please check the form."
       render :edit
     end
   end
 
   def destroy
     @post.destroy
-    flash[:success] = "Your post has been deleted."
+    flash[:success] = "👍 Your post has been deleted."
     redirect_to root_path
   end
 
