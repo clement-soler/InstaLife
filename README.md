@@ -1,5 +1,5 @@
 # InstaLife
-A Ruby on Rails Instagramme clone
+A Ruby on Rails Instagram clone
 
 Ruby version: 2.3.1
 Rails version: 5.0.0.1
