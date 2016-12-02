@@ -6,7 +6,7 @@ A Ruby on Rails Instagram clone
 
 ### Run app on my server (VPS Debian 8 - Jessie)
 - Install Ruby and Rails on your server
-- Install node js to use Uglifier (JavaScript compressor) because you need javascript runtime
+- Install NodeJS to use Uglifier (JavaScript compressor) because you need javascript runtime
 - Git clone this repo or transfer your file via ftp
 
 ```
