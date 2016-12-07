@@ -16,10 +16,46 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
 
+*{
+  outline: none;
+}
+
+ html {
+   height: 100%;
+ }
+
  body {
    background-color: #fafafa;
    font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
  }
+
+//form
+#image-preview {
+  margin: 0px auto;
+}
+
+#post_image {
+  padding: 1em;
+  margin: 0px auto;
+}
+
+// register
+.navbar {
+  margin-bottom: 0px;
+}
+
+.alert {
+  margin-bottom: 0px;
+}
+//
+.input-lg{
+  width: 100%;
+  border: none;
+  border: 1px solid gray;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  height: 40px;
+}
 
  /* ## NAVBAR CUSTOMISATIONS ## */
 
