@@ -31,6 +31,8 @@ gem 'simple_form', '~> 3.3.1'
 gem 'bootstrap-sass', '~> 3.3.7'
 # add auth gem
 gem 'devise'
+# add kaminari
+gem 'kaminari', '~> 0.17.0' 
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
