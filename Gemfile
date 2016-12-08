@@ -35,6 +35,8 @@ gem 'devise'
 gem 'kaminari', '~> 0.17.0'
 # add jquery turbolinks
 gem 'jquery-turbolinks'
+# draw database
+gem "rails-erd"
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
