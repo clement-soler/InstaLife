@@ -32,7 +32,9 @@ gem 'bootstrap-sass', '~> 3.3.7'
 # add auth gem
 gem 'devise'
 # add kaminari
-gem 'kaminari', '~> 0.17.0' 
+gem 'kaminari', '~> 0.17.0'
+# add jquery turbolinks
+gem 'jquery-turbolinks'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
