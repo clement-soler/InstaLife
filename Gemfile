@@ -37,6 +37,8 @@ gem 'kaminari', '~> 0.17.0'
 gem 'jquery-turbolinks'
 # draw database
 gem "rails-erd"
+# like
+gem 'acts_as_votable', '~> 0.10.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
