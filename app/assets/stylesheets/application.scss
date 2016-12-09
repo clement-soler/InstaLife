@@ -34,6 +34,9 @@ body {
 
 .navbar {
   margin-bottom: 0px;
+  background: white;
+  position: relative;
+  z-index: 2;
 }
 
 .navbar-brand {
@@ -166,6 +169,7 @@ body > div > div > div > div > div > div > p {
 }
 
 .post-bottom {
+  padding-top: 10px;
   .user-name, .comment-content {
     display: inline;
   }
@@ -226,25 +230,7 @@ body > div > div > div > div > div > div > p {
   margin-bottom: 40px;
 }
 
-.registration-bg {
-  padding-top: 4em;
-  height: 100%;
-  background-image: image-url('regbackg.jpg');
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
-.login-bg {
-  padding-top: 4em;
-  height: 100%;
-  background-image: image-url('loginbg.jpg');
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .log-in{
   margin-left: auto;
@@ -253,15 +239,6 @@ body > div > div > div > div > div > div > p {
   border: none;
 }
 
-.panel {
-  border-radius: 8px;
-}
-
-.panel-heading{
-  h1 {
-    text-align: center;
-  }
-}
 
 #image-preview {
   margin: 0 auto;
