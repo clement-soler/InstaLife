@@ -339,3 +339,13 @@ body > div > div > div > div > div > div > p {
  padding: 1em;
  margin: 0px auto;
 }
+
+.like {
+  text-decoration: none;
+  color: red;
+}
+
+.like-button a:hover, a:focus {
+  text-decoration: none;
+  color: red;
+}
