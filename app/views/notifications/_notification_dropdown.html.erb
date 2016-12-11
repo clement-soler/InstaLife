@@ -1,0 +1,23 @@
+<% if user_signed_in? %>
+  <li>
+    <div class="dropdown notification-dropdown">
+      <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      5
+      <span class="glyphicon glyphicon-flag">
+        <ul class="dropdown-menu">
+          <li class="dropdown-header text-center">Notifications
+            <li>
+              <a href="#">Notification 1</a>
+            </li>
+            <li>
+              <a href="#">Notification 2</a>
+            </li>
+            <li>
+              <%= link_to "New Post", new_post_path %>
+            </li>
+          </li>
+        </ul>
+      </span>
+    </div>
+  </li>
+<% end %>
