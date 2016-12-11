@@ -5,6 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-user1 = User.create :user_name => "User1", :email => "user1@example.com", :password => "localtest"
-user2 = User.create :user_name => "User2", :email => "user2@example.com", :password => "localtest"
-user3 = User.create :user_name => "User3", :email => "user3@example.com", :password => "localtest"
+user1 = User.create :user_name => "Zoler", :email => "clement.soler@hetic.net", :password => "secretpass", :avatar => File.new("#{Rails.root}/public/seedbox/clem.jpg")
+user2 = User.create :user_name => "Eden", :email => "eden.bitton@hetic.net", :password => "secretpass", :avatar => File.new("#{Rails.root}/public/seedbox/eden.jpg")
+user3 = User.create :user_name => "Antoine", :email => "antoine.frebault@hetic.net", :password => "secretpass", :avatar => File.new("#{Rails.root}/public/seedbox/antoine.jpg")
