@@ -26,7 +26,7 @@ module PostsHelper
 
   def count_likers(votes)
     vote_count = votes.size
-    vote_count.to_s + 'likes'
+    vote_count.to_s + ' likes'
   end
 
   def like_plural(votes)
