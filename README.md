@@ -30,3 +30,13 @@ kill 1234
 - exit
 - lsof -wni tcp:3000
 - kill id pid
+
+```
+VirtualHost *:80>
+        #DocumentRoot /var/www/instalife/
+        ServerName instalife.domainname.example
+
+        ProxyPass "/" "http://127.0.0.1:3000/"
+        ProxyPassReverse "/" "http://127.0.0.1:3000/"
+</VirtualHost>
+```
