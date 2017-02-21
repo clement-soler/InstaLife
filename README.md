@@ -25,8 +25,8 @@ kill 1234
 
 ### memo
 
-rails s -b 127.0.0.1 -e production -d
-bundle exec erd
-exit
-lsof -wni tcp:3000
-kill id pid
+- rails s -b 127.0.0.1 -e production -d
+- bundle exec erd
+- exit
+- lsof -wni tcp:3000
+- kill id pid
